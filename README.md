@@ -1,5 +1,5 @@
 # Pokemon-Player
-This is a work-in-progress Java project that allows one or two users to access a 1-vs-1 text-based Pokemon battler through the **Battle.java** file. Here is a walkthrough of all the files in the "pokemon_player" subfolder:
+This is a work-in-progress Java project that allows one or two users to access a 1-vs-1 text-based Pokemon battler through the **Battle.java** file. Here is a walkthrough of all the files in the pokemon_player folder:
 - **Battle.java** is the battle interface. Users can enter their pokemon and their pokemon's moves and then proceed to battle until one faints.
 - **BattleTurn.java** runs through one iteration of a turn in battle (where both pokemon get to attack once).
 - **Poke.java** is the Pokemon class that currently has all relevant attributes that can affect a Pokemon in battle (Stats, Moves, Nature, Type(s), EVs, IVs, etc.)
